@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personvernerklæring — Kvitteringsvakt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1d1d1f;
+            background-color: #fff;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        header {
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e5e5e7;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        .app-name {
+            color: #0071e3;
+            font-weight: 600;
+        }
+
+        .updated {
+            font-size: 0.875rem;
+            color: #86868b;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #424245;
+        }
+
+        ul {
+            margin: 0 0 16px 20px;
+            color: #424245;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            margin-top: 56px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e5e7;
+            font-size: 0.875rem;
+            color: #86868b;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 32px 20px 60px;
+            }
+
+            h1 {
+                font-size: 1.625rem;
+            }
+
+            h2 {
+                font-size: 1.125rem;
+                margin-top: 32px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1c1c1e;
+                color: #f5f5f7;
+            }
+
+            p, li {
+                color: #d1d1d6;
+            }
+
+            header, footer {
+                border-color: #38383a;
+            }
+
+            .updated, footer {
+                color: #98989d;
+            }
+
+            .highlight-box {
+                background: #2c2c2e;
+            }
+
+            a {
+                color: #2997ff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Personvernerklæring</h1>
+            <p class="app-name">Kvitteringsvakt</p>
+            <p class="updated">Sist oppdatert: 25. mars 2026</p>
+        </header>
+
+        <div class="highlight-box">
+            <p><strong>Kort oppsummert:</strong> Kvitteringsvakt samler ikke inn noen data om deg. All informasjon lagres lokalt på din enhet og i din private iCloud-konto. Vi bruker ingen analyse- eller sporingsverktøy, og deler aldri data med tredjeparter.</p>
+        </div>
+
+        <h2>Hvilke data behandles</h2>
+        <p>Kvitteringsvakt lar deg skanne og lagre kvitteringer for å holde oversikt over kjøp og garantier. Følgende data kan bli lagret:</p>
+        <ul>
+            <li>Bilder av kvitteringer</li>
+            <li>Kjøpsinformasjon (butikk, dato, beløp, produktnavn)</li>
+            <li>Garantiperioder og påminnelser</li>
+            <li>Tekst hentet fra kvitteringer via OCR</li>
+        </ul>
+        <p>All denne informasjonen lagres utelukkende på din enhet ved hjelp av SwiftData. Ingenting sendes til våre servere — vi har ingen.</p>
+
+        <h2>OCR og tekstgjenkjenning</h2>
+        <p>Når du skanner en kvittering, bruker appen Apples Vision-rammeverk til å lese tekst fra bildet. All tekstgjenkjenning skjer lokalt på enheten din. Ingen bilder eller tekst sendes til eksterne tjenester.</p>
+
+        <h2>iCloud-synkronisering</h2>
+        <p>Dersom du har iCloud aktivert, kan dataene dine synkroniseres mellom enhetene dine via Apples CloudKit. Denne synkroniseringen håndteres av Apple, og dataene er beskyttet av Apples personvernregler og kryptering.</p>
+        <p>Vi har ikke tilgang til dataene dine i iCloud. Les mer i <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apples personvernerklæring</a>.</p>
+
+        <h2>Face ID</h2>
+        <p>Kvitteringsvakt tilbyr valgfri applåsing med Face ID eller Touch ID. Biometriske data håndteres utelukkende av iOS og lagres i enhetens Secure Enclave. Appen mottar bare et ja/nei-svar fra systemet — vi har aldri tilgang til ansiktsdata eller fingeravtrykk.</p>
+
+        <h2>Søk på enheten</h2>
+        <p>Appen bruker CoreSpotlight slik at du kan finne kjøpene dine via iOS-søk. Denne indeksen lagres lokalt på enheten og deles ikke med noen.</p>
+
+        <h2>Ingen sporing eller analyse</h2>
+        <p>Kvitteringsvakt inneholder:</p>
+        <ul>
+            <li>Ingen analyseverktøy (analytics)</li>
+            <li>Ingen sporings-SDK-er</li>
+            <li>Ingen annonsenettverk</li>
+            <li>Ingen tredjepartsbiblioteker som samler data</li>
+        </ul>
+        <p>Vi sporer ikke hvordan du bruker appen, og vi samler ikke inn noen form for brukerdata.</p>
+
+        <h2>Deling med tredjeparter</h2>
+        <p>Vi deler ingen data med tredjeparter. Punktum.</p>
+
+        <h2>Sletting av data</h2>
+        <p>Siden all data lagres lokalt på din enhet og i din iCloud-konto, har du full kontroll. Du kan:</p>
+        <ul>
+            <li>Slette enkeltkvitteringer direkte i appen</li>
+            <li>Slette all data via appens innstillinger</li>
+            <li>Avinstallere appen for å fjerne all lokal data</li>
+            <li>Administrere iCloud-data via Innstillinger på enheten</li>
+        </ul>
+
+        <h2>GDPR og dine rettigheter</h2>
+        <p>Siden vi ikke samler inn eller lagrer noen personopplysninger på våre servere, er det ingen data hos oss å få innsyn i, rette eller slette. All data er din, og den forblir på din enhet og i din iCloud-konto.</p>
+        <p>Du har full kontroll over dataene dine til enhver tid, i tråd med EUs personvernforordning (GDPR).</p>
+
+        <h2>Barns personvern</h2>
+        <p>Kvitteringsvakt samler ikke bevisst inn data fra barn. Siden ingen personopplysninger forlater enheten, behandler vi ikke data fra noen aldersgruppe.</p>
+
+        <h2>Endringer i personvernerklæringen</h2>
+        <p>Dersom vi oppdaterer denne erklæringen, vil endringene publiseres på denne siden med ny dato. Ved vesentlige endringer vil vi informere via appen.</p>
+
+        <h2>Kontakt</h2>
+        <p>Har du spørsmål om personvern eller appen generelt? Ta gjerne kontakt:</p>
+        <p>
+            <strong>Jonas Haug</strong><br>
+            <a href="mailto:jonasbjh@gmail.com">jonasbjh@gmail.com</a><br>
+            Norge
+        </p>
+
+        <footer>
+            &copy; 2026 Jonas Haug. Alle rettigheter forbeholdt.
+        </footer>
+    </div>
+</body>
+</html>
